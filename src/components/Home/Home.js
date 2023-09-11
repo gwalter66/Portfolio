@@ -1,7 +1,9 @@
+import About from "../About/About";
+
 const Home = () => {
   return (
     <>
-      <h3>Home Screen</h3>
+      <About />
     </>
   );
 };
