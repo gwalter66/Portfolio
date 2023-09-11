@@ -1,10 +1,11 @@
-import { Button, Card } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import FlashcardHome from "./FlashcardHome.png";
+import { Link } from "react-router-dom";
 
 const FlashcardAppCard = () => {
   return (
     <>
-      <Card style={{ width: "18rem" }}>
+      <Card bg="secondary" style={{ width: "18rem" }}>
         <Card.Img variant="top" src={FlashcardHome} />
         <Card.Body>
           <Card.Title>Flashcard-O-Matic</Card.Title>
@@ -13,7 +14,12 @@ const FlashcardAppCard = () => {
             decks of flashcards for the subjects they teach, as well as for
             students to study the decks their teachers have created.
           </Card.Text>
-          <Button variant="primary">View</Button>
+          <Link
+            to="https://github.com/gwalter66/CapStone-Flashcard-app"
+            className="btn btn-primary"
+          >
+            View
+          </Link>
         </Card.Body>
       </Card>
     </>

@@ -9,7 +9,7 @@
 
 The homepage contains
 -an about me section
--preview cards of most recent projects with links to a more in depth view
+-preview cards of most recent projects with links to a more in depth view _links currently go to the github repository for each project_
 -contact links to an email form, LinkedIn accout, and Github account
 ![Landing Page](READMEimg/portfolio-homepage.png)
 
