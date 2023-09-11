@@ -6,8 +6,8 @@ import WeLoveMoviesCard from "../Projects/WeLoveMoviesCard";
 const ProjectView = () => {
   return (
     <>
-      <Container>
-        <h1>My Projects</h1>
+      <Container className="mb-5">
+        <h1 className="mb-5">My Projects</h1>
         <Row className="justify-content-between m-1 p-1">
           <ReservationProjectCard />
           <WeLoveMoviesCard />
