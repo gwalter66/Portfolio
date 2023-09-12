@@ -84,7 +84,7 @@ const FlashcardProjectPage = () => {
             </Card>
           </Col>
 
-          <Col className="justify-content-center">
+          <Col>
             <Card
               bg="secondary"
               text="light"
