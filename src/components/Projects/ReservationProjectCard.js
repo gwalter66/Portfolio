@@ -14,10 +14,7 @@ const ReservationProjectCard = () => {
             delete reservations. Also allows a resturant to seat reservations a
             various tables
           </Card.Text>
-          <Link
-            to="https://github.com/gwalter66/Resturant-Reservation-System"
-            className="btn btn-primary"
-          >
+          <Link to="projects/reservations" className="btn btn-primary">
             View
           </Link>
         </Card.Body>

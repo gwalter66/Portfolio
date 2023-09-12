@@ -14,10 +14,7 @@ const FlashcardAppCard = () => {
             decks of flashcards for the subjects they teach, as well as for
             students to study the decks their teachers have created.
           </Card.Text>
-          <Link
-            to="https://github.com/gwalter66/CapStone-Flashcard-app"
-            className="btn btn-primary"
-          >
+          <Link to="/projects/flashcards" className="btn btn-primary">
             View
           </Link>
         </Card.Body>

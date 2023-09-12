@@ -13,10 +13,7 @@ const WeLoveMoviesCard = () => {
             A backend Express application, Allowing the Front-End application to
             gain access to data about movies, theaters, and reviews.
           </Card.Text>
-          <Link
-            to="https://github.com/gwalter66/WeLoveMovies"
-            className="btn btn-primary"
-          >
+          <Link to="/projects/welovemovies" className="btn btn-primary">
             View
           </Link>
         </Card.Body>
