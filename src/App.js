@@ -10,6 +10,7 @@ import Footer from "./components/Footer/Footer";
 import Contact from "./components/Contact/Contact";
 import ProjectsPage from "./components/ProjectsPage/ProjectsPage";
 import ReservationsProject from "./components/ReservationsProject/ReservationsProject";
+import WeLoveMoviesPage from "./components/WeLoveMoviesPage/WeLoveMovies";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           path="/projects/reservations"
           element={<ReservationsProject />}
         />
+        <Route path="/projects/WeLoveMovies" element={<WeLoveMoviesPage />} />
       </Routes>
       <Footer />
     </div>
