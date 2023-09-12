@@ -16,6 +16,9 @@ The homepage contains
 ## Projects Page
 
 **Projects page is still in development**
+-The projects page contains
+--A preview of most recent projects with links to a more in depth view _links currently go to the github repository for each project_
+![Project Page](READMEimg/portfolio-projectspage.png)
 
 ## Contact Page
 

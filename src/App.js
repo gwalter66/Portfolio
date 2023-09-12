@@ -8,6 +8,7 @@ import Navbar1 from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home.js";
 import Footer from "./components/Footer/Footer";
 import Contact from "./components/Contact/Contact";
+import ProjectsPage from "./components/ProjectsPage/ProjectsPage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/projects" element={<ProjectsPage />} />
       </Routes>
       <Footer />
     </div>
