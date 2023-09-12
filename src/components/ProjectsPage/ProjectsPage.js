@@ -88,10 +88,7 @@ const ProjectsPage = () => {
               learning process for both educators and students, making it a
               must-have tool in the world of education.
             </p>
-            <Link
-              to="https://github.com/gwalter66/CapStone-Flashcard-app"
-              className="btn btn-primary"
-            >
+            <Link to="/projects/flashcards" className="btn btn-primary">
               View Project
             </Link>
           </Col>

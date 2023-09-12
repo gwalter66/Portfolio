@@ -33,7 +33,7 @@ const About = () => {
                 commitment to excellence to every endeavor.
               </p>
               <p>
-                I'm passionate about creating solutions that bridge the gab
+                I'm passionate about creating solutions that bridge the gap
                 between the physical and digital worlds. Let's collaborate on
                 projects that drive innovation and transfor industries. Reach
                 out to any of my contacts below to discuss exciting

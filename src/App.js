@@ -11,6 +11,7 @@ import Contact from "./components/Contact/Contact";
 import ProjectsPage from "./components/ProjectsPage/ProjectsPage";
 import ReservationsProject from "./components/ReservationsProject/ReservationsProject";
 import WeLoveMoviesPage from "./components/WeLoveMoviesPage/WeLoveMovies";
+import FlashcardProjectPage from "./components/FlashcardProjectPage/FlashcardProjectPage";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           element={<ReservationsProject />}
         />
         <Route path="/projects/WeLoveMovies" element={<WeLoveMoviesPage />} />
+        <Route path="/projects/flashcards" element={<FlashcardProjectPage />} />
       </Routes>
       <Footer />
     </div>
