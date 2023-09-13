@@ -6,10 +6,14 @@ const ReservationProjectCard = () => {
   return (
     <>
       <Card bg="secondary" style={{ width: "18rem" }}>
-        <Card.Img variant="top" src={reservationHome} />
+        <Card.Img
+          variant="top"
+          src={reservationHome}
+          style={{ height: "10rem " }}
+        />
         <Card.Body>
-          <Card.Title>Resturant Reservation App</Card.Title>
-          <Card.Text>
+          <Card.Title>Reservation App</Card.Title>
+          <Card.Text style={{ height: "10rem" }}>
             Full-Stack application to allow a resturant to make, update, and
             delete reservations. Also allows a resturant to seat reservations a
             various tables

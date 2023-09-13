@@ -6,10 +6,14 @@ const WeLoveMoviesCard = () => {
   return (
     <>
       <Card bg="secondary" style={{ width: "18rem" }}>
-        <Card.Img variant="top" src={weLoveMoviesCover} />
+        <Card.Img
+          variant="top"
+          src={weLoveMoviesCover}
+          style={{ height: "10rem" }}
+        />
         <Card.Body>
           <Card.Title>We Love Movies</Card.Title>
-          <Card.Text>
+          <Card.Text style={{ height: "10rem" }}>
             A backend Express application, Allowing the Front-End application to
             gain access to data about movies, theaters, and reviews.
           </Card.Text>

@@ -6,10 +6,14 @@ const FlashcardAppCard = () => {
   return (
     <>
       <Card bg="secondary" style={{ width: "18rem" }}>
-        <Card.Img variant="top" src={FlashcardHome} />
+        <Card.Img
+          variant="top"
+          src={FlashcardHome}
+          style={{ height: "10rem" }}
+        />
         <Card.Body>
           <Card.Title>Flashcard-O-Matic</Card.Title>
-          <Card.Text>
+          <Card.Text style={{ height: "10rem" }}>
             Application built with React.js intended for both teachers to create
             decks of flashcards for the subjects they teach, as well as for
             students to study the decks their teachers have created.

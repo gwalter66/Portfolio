@@ -1,6 +1,13 @@
 import { Card, Col, Container, Row } from "react-bootstrap";
-import reservationsDashboard from "./reservations-dashboard.png";
 import { Link } from "react-router-dom";
+
+import reservationsDashboard from "./reservations-dashboard.png";
+import reservationsControlScreenshot from "./reservationControlScreenshot.png";
+import tableAssignmentScreenshot from "./tableAssignmentScreenshot.png";
+import tableManagementScreenshot from "./tableManagementScreenshot.png";
+import userFriendlyInterfaceScreenshot from "./userFriendlyInterfaceScreenshot.png";
+import robustBackendScreenshot from "./robustBackendScreenshot.png";
+import restfulApisScreenshot from "./restfulApisScreenshot.png";
 
 const ReservationsProject = () => {
   return (
@@ -30,11 +37,11 @@ const ReservationsProject = () => {
                 width="16"
                 height="16"
                 fill="currentColor"
-                class="bi bi-github"
+                className="bi bi-github"
                 viewBox="0 0 16 16"
               >
                 <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-              </svg>
+              </svg>{" "}
               Github
             </Link>
           </Col>
@@ -49,8 +56,16 @@ const ReservationsProject = () => {
         </Row>
         <Row className="mb-5">
           <Col>
-            <Card bg="info" border="dark" style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="holder.js/100px/180" />
+            <Card
+              bg="info"
+              border="dark"
+              style={{ width: "18rem", height: "24rem" }}
+            >
+              <Card.Img
+                variant="top"
+                src={reservationsControlScreenshot}
+                style={{ height: "15rem" }}
+              />
               <Card.Body>
                 <Card.Title>Reservation Control</Card.Title>
                 <Card.Text>
@@ -61,8 +76,16 @@ const ReservationsProject = () => {
             </Card>
           </Col>
           <Col>
-            <Card bg="info" border="dark" style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="./holder.js" />
+            <Card
+              bg="info"
+              border="dark"
+              style={{ width: "18rem", height: "24rem" }}
+            >
+              <Card.Img
+                variant="top"
+                src={tableAssignmentScreenshot}
+                style={{ height: "15rem" }}
+              />
               <Card.Body>
                 <Card.Title>Table Assignment</Card.Title>
                 <Card.Text>
@@ -73,8 +96,16 @@ const ReservationsProject = () => {
             </Card>
           </Col>
           <Col>
-            <Card bg="info" border="dark" style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="./holder.js" />
+            <Card
+              bg="info"
+              border="dark"
+              style={{ width: "18rem", height: "24rem" }}
+            >
+              <Card.Img
+                variant="top"
+                src={tableManagementScreenshot}
+                style={{ height: "15rem" }}
+              />
               <Card.Body>
                 <Card.Title>Table Management</Card.Title>
                 <Card.Text>
@@ -90,8 +121,16 @@ const ReservationsProject = () => {
         </Row>
         <Row className="mt-3 mb-5">
           <Col>
-            <Card bg="secondary" border="info" style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="./holder.js" />
+            <Card
+              bg="secondary"
+              border="info"
+              style={{ width: "18rem", height: "26rem" }}
+            >
+              <Card.Img
+                variant="top"
+                src={userFriendlyInterfaceScreenshot}
+                style={{ height: "15rem" }}
+              />
               <Card.Body>
                 <Card.Title>User-Friendly Interface</Card.Title>
                 <Card.Text>
@@ -102,8 +141,16 @@ const ReservationsProject = () => {
             </Card>
           </Col>
           <Col>
-            <Card bg="secondary" border="info" style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="./holder.js" />
+            <Card
+              bg="secondary"
+              border="info"
+              style={{ width: "18rem", height: "26rem" }}
+            >
+              <Card.Img
+                variant="top"
+                src={robustBackendScreenshot}
+                style={{ height: "15rem" }}
+              />
               <Card.Body>
                 <Card.Title>Robust Backend</Card.Title>
                 <Card.Text>
@@ -114,8 +161,16 @@ const ReservationsProject = () => {
             </Card>
           </Col>
           <Col>
-            <Card bg="secondary" border="info" style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="./holder.js" />
+            <Card
+              bg="secondary"
+              border="info"
+              style={{ width: "18rem", height: "26rem" }}
+            >
+              <Card.Img
+                variant="top"
+                src={restfulApisScreenshot}
+                style={{ height: "15rem" }}
+              />
               <Card.Body>
                 <Card.Title>RESTful API's</Card.Title>
                 <Card.Text>
