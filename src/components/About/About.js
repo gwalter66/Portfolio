@@ -22,8 +22,8 @@ const About = () => {
               </p>
               <p>
                 Inspired by the ever-evolving tech landscape, I transitioned
-                into software engineering through THinkful's comprehensive
-                program. Now, I specialize in a reange of skills, including
+                into software engineering through Thinkful's comprehensive
+                program. Now, I specialize in a range of skills, including
                 JavaScript, HTML, CSS, React, Node.js, Express, and PostgreSQL.
               </p>
               <p>
